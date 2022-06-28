@@ -578,7 +578,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointsWorth: 1
   pickupEffect: {fileID: 0}
-  scoreUI: {fileID: 0}
+  scoreUI: {fileID: 1273224349}
 --- !u!1 &183043065
 GameObject:
   m_ObjectHideFlags: 0
@@ -1177,7 +1177,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointsWorth: 1
   pickupEffect: {fileID: 0}
-  scoreUI: {fileID: 0}
+  scoreUI: {fileID: 1273224349}
 --- !u!1 &393500335
 GameObject:
   m_ObjectHideFlags: 0
@@ -1292,7 +1292,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointsWorth: 1
   pickupEffect: {fileID: 0}
-  scoreUI: {fileID: 0}
+  scoreUI: {fileID: 1273224349}
 --- !u!1 &427712709
 GameObject:
   m_ObjectHideFlags: 0
@@ -1663,7 +1663,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointsWorth: 1
   pickupEffect: {fileID: 0}
-  scoreUI: {fileID: 0}
+  scoreUI: {fileID: 1273224349}
 --- !u!1 &497471975
 GameObject:
   m_ObjectHideFlags: 0
@@ -2389,7 +2389,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointsWorth: 1
   pickupEffect: {fileID: 0}
-  scoreUI: {fileID: 0}
+  scoreUI: {fileID: 1273224349}
 --- !u!1 &611337662
 GameObject:
   m_ObjectHideFlags: 0
@@ -3365,7 +3365,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointsWorth: 1
   pickupEffect: {fileID: 0}
-  scoreUI: {fileID: 0}
+  scoreUI: {fileID: 1273224349}
 --- !u!1 &816504121
 GameObject:
   m_ObjectHideFlags: 0
@@ -3480,7 +3480,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointsWorth: 1
   pickupEffect: {fileID: 0}
-  scoreUI: {fileID: 0}
+  scoreUI: {fileID: 1273224349}
 --- !u!1 &917580278
 GameObject:
   m_ObjectHideFlags: 0
@@ -4225,7 +4225,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointsWorth: 1
   pickupEffect: {fileID: 0}
-  scoreUI: {fileID: 0}
+  scoreUI: {fileID: 1273224349}
 --- !u!1 &1117051268
 GameObject:
   m_ObjectHideFlags: 0
@@ -4932,6 +4932,51 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1273224349
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1273224350}
+  - component: {fileID: 1273224351}
+  m_Layer: 0
+  m_Name: ScoreSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1273224350
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273224349}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 152.20706, y: 362.21133, z: -1866.2909}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1273224351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273224349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d37e7986f3534ea4faf8ce8efd741ab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 0
+  scoreText: {fileID: 1914881779}
 --- !u!1 &1307827974
 GameObject:
   m_ObjectHideFlags: 0
@@ -5430,7 +5475,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointsWorth: 1
   pickupEffect: {fileID: 0}
-  scoreUI: {fileID: 0}
+  scoreUI: {fileID: 1273224349}
 --- !u!1 &1383721169
 GameObject:
   m_ObjectHideFlags: 3
@@ -6223,7 +6268,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointsWorth: 1
   pickupEffect: {fileID: 0}
-  scoreUI: {fileID: 0}
+  scoreUI: {fileID: 1273224349}
 --- !u!1 &1635233114
 GameObject:
   m_ObjectHideFlags: 0
@@ -7213,7 +7258,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointsWorth: 1
   pickupEffect: {fileID: 0}
-  scoreUI: {fileID: 0}
+  scoreUI: {fileID: 1273224349}
 --- !u!1 &1878552990
 GameObject:
   m_ObjectHideFlags: 0
@@ -7504,8 +7549,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 80, y: -15}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 111.881775, y: -32.87764}
+  m_SizeDelta: {x: 219.5924, y: 62.7758}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1914881779
 MonoBehaviour:
@@ -7529,10 +7574,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
+    m_FontSize: 28
+    m_FontStyle: 3
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 0
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -7540,7 +7585,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: 'Score: '
 --- !u!222 &1914881780
 CanvasRenderer:
   m_ObjectHideFlags: 0
