@@ -13,6 +13,9 @@ public class PlayerControls : MonoBehaviour
     public float movementSpeed = 10f;
     [Header("Default Directional movement Speed")]
     public float movement = 0f;
+    [Header("Score Text")]
+    public Text scoreText;
+    private float topScore = 0.0f;
     // Start is called before the first frame update
     void Start()
     {
