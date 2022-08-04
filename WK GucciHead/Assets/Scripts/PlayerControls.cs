@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.UIElements;
 
 public class PlayerControls : MonoBehaviour
@@ -34,6 +35,12 @@ public class PlayerControls : MonoBehaviour
         {
             this.GetComponent<SpriteRenderer>().flipX = true;
         }
+
+        if (rb.velocity.y > 0 && transform.position.y > topScore)
+        {
+            topScore = transform.position.y;
+        }
+        scoreText.text = "Score:" + Mathf.Round(topScore).ToString();
     }
 
     void FixedUpdate()
