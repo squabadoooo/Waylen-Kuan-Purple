@@ -307,5 +307,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12e8373552587ed4bab05c035de8de2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 0}
-  shrinkSpeed: 3
+  rb: {fileID: 5848088936291692206}
+  shrinkSpeed: 2
