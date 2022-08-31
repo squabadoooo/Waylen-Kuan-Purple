@@ -26,3 +26,4 @@ public class Spawner : MonoBehaviour
         Instantiate(challengeObject, transform.position, transform.rotation);
     }
 }
+
