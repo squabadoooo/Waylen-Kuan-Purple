@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
+    public Vector3 spawnPos;
     [Header("ChallengeObj Game Object")]
     public GameObject challengeObject;
     [Header("Default spawn delay time")]
@@ -19,7 +20,7 @@ public class Spawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = new Vector3(15, -4f, 0);
+        transform.position = spawnPos;
     }
     void InstantiateObjects()
     {
