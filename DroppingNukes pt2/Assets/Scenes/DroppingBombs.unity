@@ -414,7 +414,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5314631903199309, guid: 82169fb5eac75114e9dae4d2dd916e6f, type: 3}
       propertyPath: speed
-      value: 10
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 23025458026824082, guid: 82169fb5eac75114e9dae4d2dd916e6f, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1115,6 +1115,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   title: {fileID: 1097452123}
+  playerPrefab: {fileID: 0}
 --- !u!1 &2134863965
 GameObject:
   m_ObjectHideFlags: 0
