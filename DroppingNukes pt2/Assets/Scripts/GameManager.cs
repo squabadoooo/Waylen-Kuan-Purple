@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     public GameObject playerPrefab;
     private GameObject player;
     private bool gameStarted = false;
+    public GameObject splash;
 
     private void Awake()
     {
@@ -24,15 +25,25 @@ void Start()
     {
         spawner.active = false;
         title.SetActive(true);
+        splash.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.anyKeyDown)
+
+        if (!gameStarted)
         {
-            spawner.active = true;
-            title.SetActive(false);
+            if (Input.anyKeyDown)
+            {
+                ResetGame();
+            }
+        }else
+        {
+            if (!player)
+            {
+                OnPlayerKilled();
+            }
         }
 
         var nextBomb = GameObject.FindGameObjectsWithTag("Bomb");
@@ -44,5 +55,22 @@ void Start()
                 Destroy(bombObject);
             }
         }
+    }
+
+    void ResetGame()
+    {
+        spawner.active = true;
+        title.SetActive(false);
+        splash.SetActive(false);
+        player = Instantiate(playerPrefab, new Vector3(0, 0, 0), playerPrefab.transform.rotation);
+        gameStarted = true;
+    }
+
+    void OnPlayerKilled()
+    {
+        spawner.active = false;
+        gameStarted = false;
+        title.SetActive(false);
+        splash.SetActive(true);
     }
 }
