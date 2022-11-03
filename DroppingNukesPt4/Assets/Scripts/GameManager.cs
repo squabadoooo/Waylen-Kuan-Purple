@@ -17,6 +17,8 @@ public class GameManager : MonoBehaviour
     public int pointsWorth = 1;
     private int score;
 
+    private bool smokeCleared = true;
+
     private void Awake()
     {
         spawner = GameObject.Find("Spawner").GetComponent<Spawner>();
@@ -40,8 +42,9 @@ void Start()
 
         if (!gameStarted)
         {
-            if (Input.anyKeyDown)
+            if (Input.anyKeyDown && smokeCleared)
             {
+                smokeCleared = false;
                 ResetGame();
             }
         }else
@@ -84,7 +87,12 @@ void Start()
     {
         spawner.active = false;
         gameStarted = false;
-        title.SetActive(false);
+
+        Invoke("SplashScreen", 2f);
+    }
+    void SplashScreen()
+    {
+        smokeCleared = true;
         splash.SetActive(true);
     }
 }
