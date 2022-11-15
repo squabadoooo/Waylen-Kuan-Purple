@@ -14,85 +14,10 @@ public class PlayerMovements : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //try here again
+        float horizontal = Input.GetAxis("Horizontal");
+        float vertical = 0.80f;
+        Vector3 destination = new Vector3(horizontal, 0, vertical);
+        transform.Translate(destination * speed * Time.deltaTime);
+
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-float horizontal = Input.GetAxis("Horizontal");
-float vertical = 0.80f;
-Vector3 destination = new Vector3(horizontal, 0, vertical);
-transform.Translate(destination * speed * Time.deltaTime);
-*/
