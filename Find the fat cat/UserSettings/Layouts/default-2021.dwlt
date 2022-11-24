@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 54
+  controlID: 94
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 40
+  controlID: 17
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 41
+  controlID: 18
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -325,15 +325,15 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Code Ninjas Markham\Documents\Waylen-Kuan-Purple\Find
-    the fat cat
+  m_LastProjectPath: C:\Users\Ninjas\Documents\GitHub\Waylen-Kuan-Purple\Find the
+    fat cat
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 70880000
-    m_LastClickedID: 34928
-    m_ExpandedIDs: 000000007088000000ca9a3b
+    m_SelectedIDs: 6e880000
+    m_LastClickedID: 34926
+    m_ExpandedIDs: 000000006e88000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -452,7 +452,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 264
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -489,9 +489,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 90caffff0cccffff34cdffff
+      m_SelectedIDs: 148d0000
+      m_LastClickedID: 36116
+      m_ExpandedIDs: 5ccaffff12ccffff34cdffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -740,9 +740,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1.3512363, y: -7.315567, z: 7.318801}
+    m_Target: {x: 9.876267, y: -1.3993626, z: 0.085952066}
     speed: 2
-    m_Value: {x: -1.3512363, y: -7.315567, z: 7.318801}
+    m_Value: {x: 9.876267, y: -1.3993626, z: 0.085952066}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -784,18 +784,18 @@ MonoBehaviour:
         m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 0, y: 0}
+      m_Size: {x: 1, y: 1}
     m_ShowGrid: 1
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.42528805, y: 0.3434918, z: -0.17861919, w: -0.8181203}
+    m_Target: {x: -0.47482166, y: 0.52459526, z: -0.48228204, w: -0.51647997}
     speed: 2
-    m_Value: {x: -0.42527062, y: 0.3434777, z: -0.17861186, w: -0.81808674}
+    m_Value: {x: -0.4740969, y: 0.5253685, z: -0.48299292, w: -0.51569164}
   m_Size:
-    m_Target: 10.014498
+    m_Target: 8.047674
     speed: 2
-    m_Value: 10.014498
+    m_Value: 8.047674
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -813,7 +813,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
+  m_LastSceneViewRotation: {x: -0.42528805, y: 0.3434918, z: -0.17861919, w: -0.8181203}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
