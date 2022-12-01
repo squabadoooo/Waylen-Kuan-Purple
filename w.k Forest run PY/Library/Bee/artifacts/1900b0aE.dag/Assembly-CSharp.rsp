@@ -355,7 +355,6 @@
 "Assets/Scripts/Animate.cs"
 "Assets/Scripts/CameraFollow.cs"
 "Assets/Scripts/DeletePlatform.cs"
-"Assets/Scripts/DetectFalsePlatforms.cs"
 "Assets/Scripts/Jump.cs"
 "Assets/Scripts/Movement.cs"
 "Assets/Scripts/NoCollisionColorChange.cs"
