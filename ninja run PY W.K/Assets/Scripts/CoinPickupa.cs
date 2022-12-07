@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CoinPickupa : MonoBehaviour
 {
+    public GameObject door;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +22,7 @@ public class CoinPickupa : MonoBehaviour
         if (other.gameObject.CompareTag("coin"))
         {
             Destroy(other.gameObject);
+            Destroy(door.gameObject);
         }
 
         
