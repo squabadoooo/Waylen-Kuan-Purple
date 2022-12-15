@@ -5,6 +5,8 @@ using UnityEngine;
 public class EnemyMovement : MonoBehaviour
 {
     public float yForce;
+    public float xForce;
+    public float xDirection;
     private Rigidbody2D enemyRigidBody;
 
     void Start()
@@ -16,21 +18,31 @@ public class EnemyMovement : MonoBehaviour
     {
         if (transform.position.x <= -8)
         {
-            
+            xDirection = 1;
+            enemyRigidBody.AddForce(Vector2.right * xForce);
         }
         
         if (transform.position.x >= 8)
         {
-            
+            xDirection = -1;
+            enemyRigidBody.AddForce(Vector2.left * xForce);
         }
 
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
+       vector qwerty = collision.gameObject.transform.position
+
         if (collision.gameObject.tag == "Ground") 
         {
-            Vector2 jumpForce = new Vector2(0, yForce);
+            Vector2 jumpForce = new Vector2(xForce * xDirection, yForce);
             enemyRigidBody.AddForce(jumpForce);
+        }
+
+        if (collision.gameObject.tag == "Enemy")
+        {
+            Vector2 kweg = new Vector2(xForce * xDirection, yForce);
+            enemyRigidBody.AddForce(left * xForce);
         }
     }
 }

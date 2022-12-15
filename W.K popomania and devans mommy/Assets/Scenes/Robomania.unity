@@ -1962,6 +1962,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   yForce: 500
+  xForce: 140
+  xDirection: -1
 --- !u!50 &1163686254
 Rigidbody2D:
   serializedVersion: 4
@@ -2572,6 +2574,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   yForce: 300
+  xForce: 130
+  xDirection: 1
 --- !u!50 &1604866806
 Rigidbody2D:
   serializedVersion: 4
