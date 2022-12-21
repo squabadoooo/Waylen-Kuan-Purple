@@ -31,7 +31,7 @@ public class EnemyMovement : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-       vector qwerty = collision.gameObject.transform.position
+        Vector2 qwerty = collision.gameObject.transform.position;
 
         if (collision.gameObject.tag == "Ground") 
         {
@@ -39,10 +39,16 @@ public class EnemyMovement : MonoBehaviour
             enemyRigidBody.AddForce(jumpForce);
         }
 
+        if (collision.gameObject.tag == "Player")
+        {
+            Vector2 bounceForce = new Vector2(xForce * xDirection * -3, yForce * 2);
+            collision.otherRigidbody.AddForce(bounceForce);
+        }
+
         if (collision.gameObject.tag == "Enemy")
         {
-            Vector2 kweg = new Vector2(xForce * xDirection, yForce);
-            enemyRigidBody.AddForce(left * xForce);
+            Vector2 bounceForce = new Vector2(xForce * xDirection * -3, yForce * 2);
+            collision.otherRigidbody.AddForce(bounceForce);
         }
     }
 }
