@@ -602,7 +602,7 @@ SkinnedMeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 40e43236c2528fa4eb09b565b159a14d, type: 2}
-  - {fileID: 2100000, guid: de1efe215c466234585b60d8ee67a606, type: 2}
+  - {fileID: 2100000, guid: 40e43236c2528fa4eb09b565b159a14d, type: 2}
   - {fileID: 2100000, guid: 40e43236c2528fa4eb09b565b159a14d, type: 2}
   - {fileID: 2100000, guid: 40e43236c2528fa4eb09b565b159a14d, type: 2}
   m_StaticBatchInfo:
@@ -1381,6 +1381,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78fdeb34c8252ae43a89b6646856c150, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 2
+  attackingDistance: 1
+  direction: {x: 0, y: 0, z: 0}
+  isFollowingTarget: 0
+  isAttackingTarget: 0
+  currentAttackingTime: 2
+  maxAttackingTime: 2
 --- !u!1 &3537918723572985119
 GameObject:
   m_ObjectHideFlags: 0
