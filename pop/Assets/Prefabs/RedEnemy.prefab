@@ -601,9 +601,9 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 40e43236c2528fa4eb09b565b159a14d, type: 2}
-  - {fileID: 2100000, guid: 40e43236c2528fa4eb09b565b159a14d, type: 2}
-  - {fileID: 2100000, guid: 40e43236c2528fa4eb09b565b159a14d, type: 2}
+  - {fileID: 2100000, guid: 7aa82b6351277428a8b642f5b86e0b28, type: 2}
+  - {fileID: 2100000, guid: f7e09d8ab2713b644af3043137b9a7e1, type: 2}
+  - {fileID: 2100000, guid: 7aa82b6351277428a8b642f5b86e0b28, type: 2}
   - {fileID: 2100000, guid: 40e43236c2528fa4eb09b565b159a14d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -1382,7 +1382,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  attackingDistance: 0.6
+  attackingDistance: 0.7
   direction: {x: 0, y: 0, z: 0}
   isFollowingTarget: 0
   isAttackingTarget: 0
@@ -2442,7 +2442,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 40e43236c2528fa4eb09b565b159a14d, type: 2}
+  - {fileID: 2100000, guid: 7aa82b6351277428a8b642f5b86e0b28, type: 2}
   - {fileID: 2100000, guid: c9dbafde6c0fd4963994243443a04785, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0

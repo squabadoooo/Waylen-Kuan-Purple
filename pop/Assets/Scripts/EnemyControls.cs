@@ -44,6 +44,7 @@ public class EnemyControls : MonoBehaviour
 
         if (Vector3.Distance(transform.position, target.position) >= attackingDistance)
         {
+            rigidbodyEnemy.isKinematic = false;
             direction = target.position - transform.position;
             direction.y = 0;
             transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(direction), 100);
@@ -57,6 +58,7 @@ public class EnemyControls : MonoBehaviour
 
         else if(Vector3.Distance(transform.position,target.position) <= attackingDistance)
         {
+            rigidbodyEnemy.isKinematic = false;
             rigidbodyEnemy.velocity = Vector3.zero;
             animatorEnemy.SetBool("Walk", false);
             isFollowingTarget = false;
@@ -108,7 +110,7 @@ public class EnemyControls : MonoBehaviour
 
         if (attack == 3)
         {
-            animatorEnemy.SetTrigger("Attack2");
+            animatorEnemy.SetTrigger("Attack3");
         }
     }
 }
