@@ -24,7 +24,7 @@ public class PowerupBehavior : MonoBehaviour
         }
         else
         {
-            transform.position = transform.position - new Vector3(0, 0.03f, 0);
+            transform.position = transform.position - new Vector3(0, 0.005f, 0);
         }
     }
     void OnTriggerEnter(Collider other)
