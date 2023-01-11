@@ -2378,8 +2378,24 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1644898631869366209, guid: 3265c07d5c8b9064792b752e584fbe35, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1644898631869366211, guid: 3265c07d5c8b9064792b752e584fbe35, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1644898631869366213, guid: 3265c07d5c8b9064792b752e584fbe35, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1644898631869366215, guid: 3265c07d5c8b9064792b752e584fbe35, type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1644898631869366215, guid: 3265c07d5c8b9064792b752e584fbe35, type: 3}
+      propertyPath: m_Materials.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1644898631869366217, guid: 3265c07d5c8b9064792b752e584fbe35, type: 3}
@@ -2390,8 +2406,28 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1644898631869366221, guid: 3265c07d5c8b9064792b752e584fbe35, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1644898631869366223, guid: 3265c07d5c8b9064792b752e584fbe35, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1644898631869366225, guid: 3265c07d5c8b9064792b752e584fbe35, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1644898631869366229, guid: 3265c07d5c8b9064792b752e584fbe35, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1644898631869366231, guid: 3265c07d5c8b9064792b752e584fbe35, type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1644898631869366231, guid: 3265c07d5c8b9064792b752e584fbe35, type: 3}
+      propertyPath: m_Materials.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1644898631887668023, guid: 3265c07d5c8b9064792b752e584fbe35, type: 3}
@@ -5035,7 +5071,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 4
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!223 &2030947155
 Canvas:
   m_ObjectHideFlags: 0
