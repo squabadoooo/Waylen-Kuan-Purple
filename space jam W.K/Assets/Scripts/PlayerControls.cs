@@ -92,6 +92,51 @@ public class PlayerControls : MonoBehaviour
                 Instantiate(projectile, transform.position + leftOffset, transform.rotation);
             }
 
+            Instantiate(projectile, transform.position, transform.rotation);
+            if (currentLevel >= 5)
+            {
+                Vector3 rightOffset = new Vector3(0.4f, 0, 0);
+                Vector3 leftOffset = new Vector3(-0.4f, 0, 0);
+                Instantiate(projectile, transform.position + rightOffset, transform.rotation);
+                Instantiate(projectile, transform.position + leftOffset, transform.rotation);
+            }
+
+            Instantiate(projectile, transform.position, transform.rotation);
+            if (currentLevel >= 8)
+            {
+                Vector3 rightOffset = new Vector3(0.2f, 0.2f, 0);
+                Vector3 leftOffset = new Vector3(-0.2f, 0.2f, 0);
+                Vector3 midOffset = new Vector3(0, 0.2f, 0);
+                Instantiate(projectile, transform.position + rightOffset, transform.rotation);
+                Instantiate(projectile, transform.position + leftOffset, transform.rotation);
+                Instantiate(projectile, transform.position + midOffset, transform.rotation);
+            }
+
+            Instantiate(projectile, transform.position, transform.rotation);
+            if (currentLevel >= 10)
+            {
+                Vector3 rightOffset = new Vector3(0.2f, 0.4f, 0);
+                Vector3 leftOffset = new Vector3(-0.2f, 0.4f, 0);
+                Instantiate(projectile, transform.position + rightOffset, transform.rotation);
+                Instantiate(projectile, transform.position + leftOffset, transform.rotation);
+            }
+
+            Instantiate(projectile, transform.position, transform.rotation);
+            if (currentLevel >= 15)
+            {
+                Vector3 rightOffset = new Vector3(0.2f, 0.2f, 0);
+                Vector3 leftOffset = new Vector3(-0.2f, 0.2f, 0);
+                Vector3 midOffset = new Vector3(0, 0.2f, 0);
+                for (float po = 0; po < 6; po++)
+                {
+                    float popo = po / 10;
+                    Instantiate(projectile, transform.position + rightOffset + new Vector3(0, popo, 0), transform.rotation);
+                    Instantiate(projectile, transform.position + leftOffset + new Vector3(0, popo, 0), transform.rotation);
+                    Instantiate(projectile, transform.position + midOffset + new Vector3(0, popo, 0), transform.rotation);
+                }
+                
+            }
+
             /*****************************\
             |**** Add your code above ****|
             \*****************************/

@@ -27,6 +27,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3632139631492857895}
   m_RootOrder: 0
@@ -81,6 +82,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 4, z: 0}
   m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3632139631188067226}
   m_Father: {fileID: 0}
@@ -105,13 +107,16 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7cbf8342880ec6d4ba80625c13e2ac51, type: 2}
+  - {fileID: 2100000, guid: 45ae58d9910b94548a9e3d67d5fe33b5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -132,6 +137,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &3632139631492857890
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -157,16 +163,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9795e4e5cf09b4347a154e6b55e38bac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemySpeed: 1.5
-  enemyHealth: 30
+  enemySpeed: 2
+  enemyHealth: 200
   currentWaypoint: 0
   pointValue: 0
   Patrol: 1
   particleSize: 0.11
   particlesPerRow: 6
-  explosionRadius: 0.4
-  explosionForce: 600
-  explosionUpward: 150
+  explosionRadius: 1.5
+  explosionForce: 1000
+  explosionUpward: 100
   enemyMaterial: {fileID: 2100000, guid: 7cbf8342880ec6d4ba80625c13e2ac51, type: 2}
   Target: {x: 0, y: 0, z: 0}
   EnemyMoveDirection: {x: 0, y: 0, z: 0}
