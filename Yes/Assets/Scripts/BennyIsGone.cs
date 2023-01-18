@@ -24,7 +24,7 @@ public class BennyIsGone : MonoBehaviour
         {
             Destroy(other.gameObject);
             Destroy(door.gameObject);
-            Destroy()
+            //Destroy();
         }
 
 
