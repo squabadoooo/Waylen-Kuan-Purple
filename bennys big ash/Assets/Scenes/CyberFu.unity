@@ -777,7 +777,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentPlayerHealth: 10
-  enemyDamage: 2
+  enemyDamage: 3
   particles: {fileID: 0}
 --- !u!114 &1149558815
 MonoBehaviour:

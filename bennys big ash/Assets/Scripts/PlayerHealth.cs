@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
-    public int currentPlayerHealth = 10;
-    public int enemyDamage = 2;
+    public int currentPlayerHealth = 6;
+    public int enemyDamage = 1;
 
     public PlayerExplosionParticles particles;
 
@@ -30,7 +30,7 @@ public class PlayerHealth : MonoBehaviour
         currentPlayerHealth -= enemyDamage;
         playerAnimator.SetTrigger("Hit");
 
-        if (currentPlayerHealth <=0)
+        if (currentPlayerHealth <=1)
         {
             particles.Explode();
             Invoke("Reloadscene", 5);
