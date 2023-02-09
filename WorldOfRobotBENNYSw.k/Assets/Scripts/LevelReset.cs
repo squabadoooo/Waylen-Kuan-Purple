@@ -16,14 +16,16 @@ public class LevelReset : MonoBehaviour
     public void GameOver()
     {
         player.SetActive(false);
-        Invoke("reload", 2);
+        Invoke("Reload", 2);
         explosion.Play();
     }
 
     void Reload()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
+
+
 
     private void FixedUpdate()
     {
