@@ -313,6 +313,7 @@ GameObject:
   - component: {fileID: 68873018}
   - component: {fileID: 68873017}
   - component: {fileID: 68873016}
+  - component: {fileID: 68873020}
   m_Layer: 0
   m_Name: TeleportPad
   m_TagString: Untagged
@@ -399,6 +400,21 @@ Transform:
   m_Father: {fileID: 1425964340}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &68873020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68873015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44d3fd96dcc19d242a70469ad5633aec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gem: {fileID: 468184293}
+  background: {fileID: 1875767817}
+  teleportDestination: Level1_A
 --- !u!4 &79126317 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: a3614c18f3e6c7142832df541b2a093c, type: 3}
@@ -10532,6 +10548,7 @@ GameObject:
   - component: {fileID: 468184296}
   - component: {fileID: 468184295}
   - component: {fileID: 468184294}
+  - component: {fileID: 468184297}
   m_Layer: 0
   m_Name: gem
   m_TagString: Untagged
@@ -10620,6 +10637,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &468184297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 468184293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d89b883671eb56d41be101f3dea3699b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterDust: {fileID: 1639722400}
 --- !u!850595691 &514486879
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -21982,7 +22012,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1621597827}
   m_LocalRotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 42.200005, y: 6.7138777, z: 15.164837}
+  m_LocalPosition: {x: 42.200005, y: 6.7138777, z: 15.147888}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_ConstrainProportionsScale: 0
   m_Children:
