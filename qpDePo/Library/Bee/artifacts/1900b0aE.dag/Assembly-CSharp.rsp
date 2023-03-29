@@ -357,6 +357,7 @@
 "Assets/Scripts/Activate.cs"
 "Assets/Scripts/ButtonContinue.cs"
 "Assets/Scripts/ButtonReset.cs"
+"Assets/Scripts/Exit.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/Hazard.cs"
 "Assets/Scripts/LifeHUD.cs"
