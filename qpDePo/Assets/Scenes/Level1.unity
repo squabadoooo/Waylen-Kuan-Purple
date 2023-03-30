@@ -414,7 +414,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gem: {fileID: 468184293}
   background: {fileID: 1875767817}
-  teleportDestination: Level1_A
+  teleportDestination: Level3
 --- !u!4 &79126317 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: a3614c18f3e6c7142832df541b2a093c, type: 3}
@@ -673,6 +673,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 79126317}
     m_Modifications:
+    - target: {fileID: 1930300908847633776, guid: 96524b76c6a28e54d8bf1b2e3d7ddb55, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1930300908847633778, guid: 96524b76c6a28e54d8bf1b2e3d7ddb55, type: 3}
       propertyPath: m_Name
       value: NotDust
@@ -724,6 +728,10 @@ PrefabInstance:
     - target: {fileID: 1930300910380831704, guid: 96524b76c6a28e54d8bf1b2e3d7ddb55, type: 3}
       propertyPath: m_Name
       value: TeleportPad
+      objectReference: {fileID: 0}
+    - target: {fileID: 1930300910637332834, guid: 96524b76c6a28e54d8bf1b2e3d7ddb55, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96524b76c6a28e54d8bf1b2e3d7ddb55, type: 3}
@@ -10548,8 +10556,8 @@ GameObject:
   m_Component:
   - component: {fileID: 468184296}
   - component: {fileID: 468184295}
-  - component: {fileID: 468184294}
   - component: {fileID: 468184297}
+  - component: {fileID: 468184298}
   m_Layer: 0
   m_Name: gem
   m_TagString: Untagged
@@ -10557,19 +10565,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &468184294
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 468184293}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.18, y: 2, z: 0.2}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &468184295
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10630,7 +10625,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 468184293}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 36.9, y: 24.95, z: 0}
+  m_LocalPosition: {x: 36.9, y: 24.95, z: 1.85}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10651,6 +10646,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teleporterDust: {fileID: 1639722400}
+--- !u!65 &468184298
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 468184293}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.2889898, y: 2, z: 2.473765}
+  m_Center: {x: 0.054494977, y: 0, z: 0.0058575273}
 --- !u!850595691 &514486879
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -17137,7 +17145,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1577330175}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.01}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
